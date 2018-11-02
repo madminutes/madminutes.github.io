@@ -451,7 +451,7 @@
 
 	function setCurrentStats(timeTaken, accuracy) {
 		let el = document.getElementById('currentStats');
-		el.innerHTML = "You passed in " + msToTime(timeTaken) + " with a " + toPercentage(accuracy) + " of questions answered correctly.";
+		el.innerHTML = "You passed in " + msToTime(timeTaken) + " with " + toPercentage(accuracy) + " of questions answered correctly.";
 	}
 	
 	function outputReadySetGoMessage(message, cssClass) {
