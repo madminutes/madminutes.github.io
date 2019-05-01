@@ -2,7 +2,7 @@
 	exports.maxPass = 25;
 	exports.maxTime = "1:15";  // 1:30 = 1 minute and 30 seconds
 
-	exports.maxPass50 = 40;  // maxPass for 50 question quizzes
+	exports.maxPass50 = 50;  // maxPass for 50 question quizzes
 	exports.maxTime50 = "2:30";  // maxTime for 50 question quizzes
 
 	exports.data = {
